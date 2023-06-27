@@ -28,7 +28,6 @@ int handler(const char *str, va_list list)
 		size = size + 1;
 	}
 
-
 	return (size);
 }
 
@@ -78,3 +77,4 @@ int percent_handler(const char *str, va_list list, int *i)
 
 	return (2);
 }
+
